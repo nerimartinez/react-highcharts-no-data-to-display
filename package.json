@@ -1,0 +1,29 @@
+{
+  "name": "react-highcharts-no-data-to-display",
+  "version": "1.0.0",
+  "description": "This package is based on highcharts-no-data-to-display and make it able to import instead of using require",
+  "main": "react_highcharts_no_data_to_display.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerimartinez/react-highcharts-no-data-to-display.git"
+  },
+  "keywords": [
+    "react",
+    "highcharts",
+    "react-highcharts",
+    "no-data",
+    "highcharts-no-data",
+    "noData",
+    "import",
+    "require"
+  ],
+  "author": "Neri Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nerimartinez/react-highcharts-no-data-to-display/issues"
+  },
+  "homepage": "https://github.com/nerimartinez/react-highcharts-no-data-to-display#readme"
+}
