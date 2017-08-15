@@ -27,16 +27,16 @@ In the highcharts configuration:
 
 ```
 lang:{
-            noData: 'no data!' //the text to be displayed
-          },
-          noData: {
-                  position: {
-                      "x": 0,
-                      "y": 0,
-                      "align": "center",
-                      "verticalAlign": "middle"
-                  }
-          }
-         ```
+  noData: 'no data!' //the text to be displayed
+},
+noData: {
+  position: {
+      "x": 0,
+      "y": 0,
+      "align": "center",
+      "verticalAlign": "middle"
+      }
+}
+```
 
 For more information you can contact me :)
