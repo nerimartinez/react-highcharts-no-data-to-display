@@ -5,14 +5,19 @@ So I created this in order to import it :)
 
 ### How to use?
 
-- First you have to install it
-_npm install react-highcharts-no-data-to-display --save_
+1 First you have to install it
 
-- Then you should import it and initialize it in the file you have the render of react-highcharts
+```
+npm install react-highcharts-no-data-to-display --save
+```
 
-_import { NoDataToDisplay } from "react-highcharts-no-data-to-display";
+2 Then you should import it and initialize it in the file you have the render of react-highcharts
 
-NoDataToDisplay ( ReactHighcharts.Highcharts );_
+```
+import { NoDataToDisplay } from "react-highcharts-no-data-to-display";
+
+NoDataToDisplay ( ReactHighcharts.Highcharts );
+```
 
 Just that!
 
@@ -20,7 +25,8 @@ Just that!
 
 In the highcharts configuration:
 
-_lang:{
+```
+lang:{
             noData: 'no data!' //the text to be displayed
           },
           noData: {
@@ -30,6 +36,7 @@ _lang:{
                       "align": "center",
                       "verticalAlign": "middle"
                   }
-          }_
+          }
+         ```
 
 For more information you can contact me :)
