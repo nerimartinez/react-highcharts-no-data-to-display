@@ -1,6 +1,6 @@
 {
   "name": "react-highcharts-no-data-to-display",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package is based on highcharts-no-data-to-display and make it able to import instead of using require",
   "main": "react_highcharts_no_data_to_display.js",
   "scripts": {
