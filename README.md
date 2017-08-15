@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+## Welcome to react-highcharts-no-data-to-display
 
-You can use the [editor on GitHub](https://github.com/nerimartinez/react-highcharts-no-data-to-display/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a version of [highcharts-no-data-to-display](https://www.npmjs.com/package/highcharts-no-data-to-display). I was developing and I needed that, but the only way to use it was through require.
+So I created this in order to import it :)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### How to use?
 
-### Markdown
+- First you have to install it
+_npm install react-highcharts-no-data-to-display --save_
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Then you should import it and initialize it in the file you have the render of react-highcharts
 
-```markdown
-Syntax highlighted code block
+_import { NoDataToDisplay } from "react-highcharts-no-data-to-display";
 
-# Header 1
-## Header 2
-### Header 3
+NoDataToDisplay ( ReactHighcharts.Highcharts );_
 
-- Bulleted
-- List
+Just that!
 
-1. Numbered
-2. List
+### Customization
 
-**Bold** and _Italic_ and `Code` text
+In the highcharts configuration:
 
-[Link](url) and ![Image](src)
-```
+_lang:{
+            noData: 'no data!' //the text to be displayed
+          },
+          noData: {
+                  position: {
+                      "x": 0,
+                      "y": 0,
+                      "align": "center",
+                      "verticalAlign": "middle"
+                  }
+          }_
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nerimartinez/react-highcharts-no-data-to-display/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+For more information you can contact me :)

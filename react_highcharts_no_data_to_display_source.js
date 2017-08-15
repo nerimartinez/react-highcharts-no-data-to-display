@@ -1,4 +1,4 @@
-export function NoDataToDisplay ( a ) {
+exports.NoDataToDisplay = function  ( a ) {
   innerFunction1 ( a );
   innerFunction2 ( a );
 }
