@@ -1,0 +1,1 @@
+# react-highcharts-no-data-to-display
